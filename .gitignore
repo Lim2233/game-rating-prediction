@@ -8,14 +8,14 @@ __pycache__/
 
 # Jupyter 笔记本检查点
 .ipynb_checkpoints/
+*.ipynb
 
 # 数据文件（通常很大，不提交）
 data/raw/
 data/processed/
 
 # 模型文件
-models/*.pkl
-models/*.h5
+models/
 
 # 编辑器/系统文件
 .vscode/
