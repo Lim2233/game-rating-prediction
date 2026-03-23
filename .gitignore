@@ -1,0 +1,22 @@
+# 虚拟环境
+venv/
+.env
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# Jupyter 笔记本检查点
+.ipynb_checkpoints/
+
+# 数据文件（通常很大，不提交）
+data/raw/
+data/processed/
+
+# 模型文件
+models/*.pkl
+models/*.h5
+
+# 编辑器/系统文件
+.vscode/
+.DS_Store
