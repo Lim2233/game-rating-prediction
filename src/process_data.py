@@ -24,6 +24,8 @@ def processData():
     #保存数据
     save_road='data/processed/data_processed.csv'
     df.to_csv(save_road,index=False)
+    
+    print('[processData]:Already!')
 
 
 if __name__ == "__main__":
