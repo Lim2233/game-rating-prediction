@@ -20,3 +20,6 @@ models/*.h5
 # 编辑器/系统文件
 .vscode/
 .DS_Store
+
+# 忽略 CatBoost 生成的临时文件夹
+catboost_info/
